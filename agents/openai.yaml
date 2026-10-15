@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent 决策记录"
+  short_description: "建立和维护项目决策记录，保留方案取舍、实现依据与新旧决定的替代关系"
+  default_prompt: "使用 $agent-notes，为目标项目建立或维护重要技术决策记录，遵循已有约定并核对实现依据。"
