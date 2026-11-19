@@ -2,7 +2,9 @@
 
 初始化时按目标项目语言和已有约定调整。下列内容是复制到目标项目的模板；方括号中的文字需要替换或删除。示例路径写在代码块中，复制后应按实际文件位置核对链接。
 
-## 项目根 AGENTS.md 规则
+## 项目根规则（AGENTS.md / CLAUDE.md）
+
+Codex 将下列规则合并到根 `AGENTS.md`。仅使用 Claude Code 且已有 `CLAUDE.md` 约定时，可合并到根 `CLAUDE.md`。两端共用时优先在 `AGENTS.md` 中维护一份正文；若 Claude Code 未直接加载它，在同级 `CLAUDE.md` 中添加独立一行 `@AGENTS.md`。保留已有内容和等效导入，不重复添加规则。
 
 ```markdown
 ## 决策记录
